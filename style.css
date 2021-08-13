@@ -1,8 +1,4 @@
-body::before{
-    content:"";
-    height: 60px;
-}
-
-.navbar-brand{
-    letter-spacing: 8px;
+body::before {
+  content: "";
+  height: 60px;
 }
