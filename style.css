@@ -2,3 +2,7 @@ body::before {
   content: "";
   height: 60px;
 }
+
+.success {
+  color: #32a214 !important;
+}
