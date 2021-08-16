@@ -4,43 +4,50 @@
   border-bottom: 12px solid rgba(0, 255, 0, 0.7);
   background-color: white;
 }
-
 .card-img {
   object-fit: cover;
   object-position: center;
   width: 120px;
 }
-
 .how-it-works {
   background: linear-gradient(to bottom, white 50%, rgb(43, 40, 40) 50%);
 }
-
-.nav-item {
+.nav-item a {
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
+  margin-left: 12px;
 }
 p {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
 .absolute-grid-1 {
   position: absolute;
   top: 0;
   right: 1200px;
   z-index: -1;
 }
-
 .absolute-ellipse-1 {
   position: absolute;
   top: 500px;
   left: 1200px;
   z-index: -1;
 }
+.teacher-ellipse {
+  position: absolute;
+  top: 400px;
+  right: 1000px;
+  z-index: -1;
+}
+.about-grid {
+  position: absolute;
+  top: 340px;
+  left: 1100px;
+  z-index: -1;
+}
 p {
   font-size: 14px;
 }
-
 @media (max-width: 500px) {
   p {
     font-size: 12px;
