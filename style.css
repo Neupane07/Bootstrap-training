@@ -3,6 +3,18 @@ body::before {
   height: 60px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .success {
   color: #32a214 !important;
+}
+
+#green-para {
+  border-left: 12px solid rgba(0, 255, 0, 0.7);
+  border-top: 12px solid rgba(0, 255, 0, 0.7);
+  border-bottom: 12px solid rgba(0, 255, 0, 0.7);
+
+  background-color: white;
 }
