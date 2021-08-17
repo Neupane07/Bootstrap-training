@@ -17,32 +17,31 @@
   font-weight: bold;
   margin-left: 12px;
 }
-p {
-  margin-bottom: 0px;
-  margin-top: 0px;
+.card-body p {
+  margin-bottom: 5px;
 }
 .absolute-grid-1 {
   position: absolute;
-  top: 0;
-  right: 1200px;
+  left: -390px;
+  top: -170px;
   z-index: -1;
 }
 .absolute-ellipse-1 {
   position: absolute;
-  top: 500px;
-  left: 1200px;
+  bottom: -127px;
+  right: -135px;
   z-index: -1;
 }
 .teacher-ellipse {
   position: absolute;
-  top: 400px;
-  right: 1000px;
+  bottom: -113px;
+  left: -119px;
   z-index: -1;
 }
 .about-grid {
   position: absolute;
-  top: 340px;
-  left: 1100px;
+  bottom: 0;
+  right: -100px;
   z-index: -1;
 }
 p {
@@ -56,4 +55,21 @@ p {
 footer a {
   text-decoration: none;
   color: #000;
+}
+footer p {
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .card {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .flex-fix {
+    flex-direction: column;
+  }
+  #green-para {
+    margin-top: 10px;
+  }
 }
